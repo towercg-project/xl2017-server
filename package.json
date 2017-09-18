@@ -1,0 +1,16 @@
+{
+  "name": "@towercg/demo-server",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "AGPL-3.0",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "scripts": {
+    "start": "npx node --trace-deprecation ./index.js"
+  },
+  "dependencies": {
+    "@towercg/server": "^0.0.1",
+    "@towercg-plugins/example-server": "^0.0.1"
+  }
+}
