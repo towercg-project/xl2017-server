@@ -11,8 +11,9 @@
   },
   "dependencies": {
     "@towercg/server": "^0.0.2",
-    "@towercg-plugins/example-server": "^0.0.1",
-    "@towercg-plugins/twitch-server": "^0.0.2",
+    "@towercg-plugins/example-server": "^0.0.2",
+    "@towercg-plugins/twitch-server": "^0.0.3",
+    "@towercg-plugins/extralife-server": "^0.0.2",
     "@towercg-plugins/timers-server": "^0.0.5"
   }
 }
