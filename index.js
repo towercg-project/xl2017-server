@@ -13,11 +13,11 @@ cfg.registerPlugin(ExamplePlugin, {
   tickRate: 60000,
   logTick: false
 });
-cfg.registerPlugin(TwitchPlugin, {
-  identity: secrets.twitch,
-  apiDebug: false,
-  chatDebug: false
-});
+// cfg.registerPlugin(TwitchPlugin, {
+//   identity: secrets.twitch,
+//   apiDebug: false,
+//   chatDebug: false
+// });
 cfg.registerPlugin(TimersPlugin);
 cfg.registerPlugin(ExtraLifePlugin, {
   users: {
