@@ -1,9 +1,7 @@
 const TowerCG = require('@towercg/server');
 const ExamplePlugin = require('@towercg-plugins/example-server').ExamplePlugin;
 const ExtraLifePlugin = require('@towercg-plugins/extralife-server').ExtraLifePlugin;
-const TwitchPlugin = require('@towercg-plugins/twitch-server').TwitchPlugin;
 const TimersPlugin = require('@towercg-plugins/timers-server').TimersPlugin;
-const secrets = require('./secrets.json');
 
 const cfg = new TowerCG.Config(__dirname);
 
@@ -21,11 +19,11 @@ cfg.registerPlugin(ExamplePlugin, {
 cfg.registerPlugin(TimersPlugin);
 cfg.registerPlugin(ExtraLifePlugin, {
   users: {
-    'ed': '250675'
+    'ed': '387436'
   },
   teams: {
-    'cic': '36773',
-    'giant-bomb': '33133'
+    'cic': '47279',
+    'gwj': '44069'
   }
 });
 
